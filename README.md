@@ -84,15 +84,16 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Lis
 Veri tabanı Firebase ile yapmaya karar verildi, bilgi ve zaman kısıtlarından dolayı ikinci sprinte taşınması uygun görüldü. İlk sprintte planlama, araştırma gibi aşamalar zaman aldığı için eksik kalan kısımların ikinci sprintte yapılmasına  karar verildi. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmedi. Ekstra koyulması gereken özellikler belirlendi. 
 
 - **Sprint Retrospective:**
-- 
-  - Developerların geri bildirimine göre story point düzenlendi
-  - Daily Scrum'ın yapılma zamanıyla alakalı değişikliğe gidilmesine karar verildi
+
+  - Developerların geri bildirimine göre story point düzenlenmeli
+  - Daily Scrum'ın yapılma zamanıyla alakalı değişikliğe gidilmeli
+  - Daha efektif bir Daily Scrum için kullanılan uygulamada değişikliğe gidilmeli
   - Kod yazma bölümlerine daha fazla zaman ayrılmalı
-  -
+  
 -**Diğer Notlar**:
 - N/A
 
----
+
 
 # Sprint 2
 

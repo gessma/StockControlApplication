@@ -31,8 +31,8 @@ Uygulamamız ile insanların satın aldığı ürünlerin, yiyeceklerin son kull
 
 - 20 - 60 yaş arası kullanıcılar
 - Evde yemek yapan kişiler
-- yemek tarifi arayan kişiler
-- alışveriş yaparken ihtiyaçları unutan 
+- yemek tarifi önerilerine bakan kişiler
+- alışveriş yaparken ihtiyaçları unutan kişiler
 
 
 ## Product Backlog URL

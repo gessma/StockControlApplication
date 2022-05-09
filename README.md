@@ -72,8 +72,10 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Lis
 ![Backlog 1]
 ![Ekran görüntüsü 2022-05-09 205629](https://user-images.githubusercontent.com/102364003/167469128-d98b710c-3ade-4389-8786-3c59e14e7a16.png)
 
-- **Ürün Durumu**: Ekran görüntüleri:
-  ![17](https://user-images.githubusercontent.com/102364003/167476674-1f6929a1-ba31-4eaa-9ace-0e315955ab05.jpg)
+- **Ürün Durumu**: 
+- 
+- Ekran görüntüleri:
+![17](https://user-images.githubusercontent.com/102364003/167476674-1f6929a1-ba31-4eaa-9ace-0e315955ab05.jpg)
 ![18](https://user-images.githubusercontent.com/102364003/167476686-ff12ec77-dd92-4506-af18-3d82c21dd8c5.jpg)
 
 - **Sprint Review**: 

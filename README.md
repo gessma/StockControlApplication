@@ -61,6 +61,11 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Lis
 
 ![Uploading Ekran görüntüsü 2022-05-08 214852.png…]()
 
+![12](https://user-images.githubusercontent.com/102364003/167476700-1c309038-b7f1-412c-b9f4-4c21b45cd4cc.png)
+![13](https://user-images.githubusercontent.com/102364003/167476704-eba59623-5dc8-4e80-8f9e-c2d026d005b1.png)
+![15](https://user-images.githubusercontent.com/102364003/167476713-8f7acd4f-64bf-4e95-8b47-27524bad730b.png)
+![16](https://user-images.githubusercontent.com/102364003/167476715-b04adc01-2a2a-4ca5-af71-cfa0aab38f64.png)
+![14](https://user-images.githubusercontent.com/102364003/167476709-870edf45-4a79-47cb-b63d-35b68337a063.png)
 
 
 - **Sprint board update**: Sprint board screenshotları: 
@@ -70,11 +75,6 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Lis
 - **Ürün Durumu**: Ekran görüntüleri:
   ![17](https://user-images.githubusercontent.com/102364003/167476674-1f6929a1-ba31-4eaa-9ace-0e315955ab05.jpg)
 ![18](https://user-images.githubusercontent.com/102364003/167476686-ff12ec77-dd92-4506-af18-3d82c21dd8c5.jpg)
-![12](https://user-images.githubusercontent.com/102364003/167476700-1c309038-b7f1-412c-b9f4-4c21b45cd4cc.png)
-![13](https://user-images.githubusercontent.com/102364003/167476704-eba59623-5dc8-4e80-8f9e-c2d026d005b1.png)
-![15](https://user-images.githubusercontent.com/102364003/167476713-8f7acd4f-64bf-4e95-8b47-27524bad730b.png)
-![16](https://user-images.githubusercontent.com/102364003/167476715-b04adc01-2a2a-4ca5-af71-cfa0aab38f64.png)
-![14](https://user-images.githubusercontent.com/102364003/167476709-870edf45-4a79-47cb-b63d-35b68337a063.png)
 
 - **Sprint Review**: 
  Sprint Review katılımcıları: Esma Baydar, Ömer Kıraç, Caner Kale, Seda Nur Kılıç, Rana Nur Köz

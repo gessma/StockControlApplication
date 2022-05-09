@@ -59,7 +59,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Lis
 
 ![Ekran görüntüsü 2022-05-02 220120](https://user-images.githubusercontent.com/102364003/167467731-228106a0-7152-4147-bd82-baabce6b8bd3.png)
 
-![Uploading Ekran görüntüsü 2022-05-08 214852.png…]()
+
 
 ![12](https://user-images.githubusercontent.com/102364003/167476700-1c309038-b7f1-412c-b9f4-4c21b45cd4cc.png)
 ![13](https://user-images.githubusercontent.com/102364003/167476704-eba59623-5dc8-4e80-8f9e-c2d026d005b1.png)
@@ -73,8 +73,8 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Lis
 ![Ekran görüntüsü 2022-05-09 205629](https://user-images.githubusercontent.com/102364003/167469128-d98b710c-3ade-4389-8786-3c59e14e7a16.png)
 
 - **Ürün Durumu**: 
-- 
 - Ekran görüntüleri:
+
 ![17](https://user-images.githubusercontent.com/102364003/167476674-1f6929a1-ba31-4eaa-9ace-0e315955ab05.jpg)
 ![18](https://user-images.githubusercontent.com/102364003/167476686-ff12ec77-dd92-4506-af18-3d82c21dd8c5.jpg)
 

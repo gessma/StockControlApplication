@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:ne_nerede/Screens/resgiterpage.dart';
-
 import 'Models/user.dart';
 import 'Screens/category_page.dart';
 
@@ -103,7 +102,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
             TextButton(
               onPressed: () {
                 //forgot password screen
-                
+
               },
               child: const Text('Şifremi unuttum',),
             ),

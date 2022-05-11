@@ -3,6 +3,7 @@ import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:ne_nerede/Screens/resgiterpage.dart';
 
 import 'Models/user.dart';
+import 'Screens/category_page.dart';
 
 
 
@@ -23,13 +24,16 @@ class MyApp extends StatelessWidget {
 
 
 
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: _title,
       home: Scaffold(
         appBar: AppBar(title: const Text(_title)),
-        body: const MyStatefulWidget(),
+        body: const MyStatefulWidget(
+
+        ),
       ),
     );
   }
@@ -49,8 +53,7 @@ class MyStatefulWidget extends StatefulWidget {
 class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   TextEditingController nameController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
-  String username= "";
-  String password="";
+  late User user;
 
 
   @override
@@ -109,14 +112,18 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                 child: ElevatedButton(
                   child: const Text('Giriş Yap'),
                   onPressed: () {
-
-
+                    if(nameController.text==user.userName && passwordController.text==user.password)
+                      {
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>Categoriespage()));
+                        print("Giriş yapıldı.");
+                      }
                   },
                 )
             ),
             Row(
               children: <Widget>[
                 const Text('Hala bir hesabın yok mu?'),
+
                 TextButton(
 
                   child: const Text(
@@ -124,8 +131,8 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                     style: TextStyle(fontSize: 20),
                   ),
                   onPressed: () async {
-                   final  _user=await Navigator.push(context, MaterialPageRoute(builder: (context)=>Registerpage()));
-                   print(_user);
+                     user=await Navigator.push(context, MaterialPageRoute(builder: (context)=>Registerpage()));
+                   print(user);
                   },
                 )
               ],

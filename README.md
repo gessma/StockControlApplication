@@ -31,8 +31,8 @@ Uygulamamız ile insanların satın aldığı ürünlerin, yiyeceklerin son kull
 
 - 20 - 60 yaş arası kullanıcılar
 - Evde yemek yapan kişiler
-- yemek tarifi arayan kişiler
-- alışveriş yaparken ihtiyaçları unutan 
+- yemek tarifi önerilerine bakan kişiler
+- alışveriş yaparken ihtiyaçları unutan kişiler
 
 
 ## Product Backlog URL
@@ -59,17 +59,24 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Lis
 
 ![Ekran görüntüsü 2022-05-02 220120](https://user-images.githubusercontent.com/102364003/167467731-228106a0-7152-4147-bd82-baabce6b8bd3.png)
 
-![Uploading Ekran görüntüsü 2022-05-08 214852.png…]()
 
+
+![12](https://user-images.githubusercontent.com/102364003/167476700-1c309038-b7f1-412c-b9f4-4c21b45cd4cc.png)
+![13](https://user-images.githubusercontent.com/102364003/167476704-eba59623-5dc8-4e80-8f9e-c2d026d005b1.png)
+![15](https://user-images.githubusercontent.com/102364003/167476713-8f7acd4f-64bf-4e95-8b47-27524bad730b.png)
+![16](https://user-images.githubusercontent.com/102364003/167476715-b04adc01-2a2a-4ca5-af71-cfa0aab38f64.png)
+![14](https://user-images.githubusercontent.com/102364003/167476709-870edf45-4a79-47cb-b63d-35b68337a063.png)
 
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1]
 ![Ekran görüntüsü 2022-05-09 205629](https://user-images.githubusercontent.com/102364003/167469128-d98b710c-3ade-4389-8786-3c59e14e7a16.png)
 
-- **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss1.png?raw=true)
-  ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss2.png?raw=true)
+- **Ürün Durumu**: 
+- Ekran görüntüleri:
+
+![17](https://user-images.githubusercontent.com/102364003/167476674-1f6929a1-ba31-4eaa-9ace-0e315955ab05.jpg)
+![18](https://user-images.githubusercontent.com/102364003/167476686-ff12ec77-dd92-4506-af18-3d82c21dd8c5.jpg)
 
 - **Sprint Review**: 
  Sprint Review katılımcıları: Esma Baydar, Ömer Kıraç, Caner Kale, Seda Nur Kılıç, Rana Nur Köz
@@ -77,15 +84,16 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Lis
 Veri tabanı Firebase ile yapmaya karar verildi, bilgi ve zaman kısıtlarından dolayı ikinci sprinte taşınması uygun görüldü. İlk sprintte planlama, araştırma gibi aşamalar zaman aldığı için eksik kalan kısımların ikinci sprintte yapılmasına  karar verildi. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmedi. Ekstra koyulması gereken özellikler belirlendi. 
 
 - **Sprint Retrospective:**
-- 
-  - Developerların geri bildirimine göre story point düzenlendi
-  - Daily Scrum'ın yapılma zamanıyla alakalı değişikliğe gidilmesine karar verildi
+
+  - Developerların geri bildirimine göre story point düzenlenmeli
+  - Daily Scrum'ın yapılma zamanıyla alakalı değişikliğe gidilmeli
+  - Daha efektif bir Daily Scrum için kullanılan uygulamada değişikliğe gidilmeli
   - Kod yazma bölümlerine daha fazla zaman ayrılmalı
-  -
+  
 -**Diğer Notlar**:
 - N/A
 
----
+
 
 # Sprint 2
 

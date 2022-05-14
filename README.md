@@ -65,6 +65,8 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Lis
 - **Ürün Durumu**: 
 - Ekran görüntüleri:
 
+![Ekran görüntüsü 2022-05-09 211239](https://user-images.githubusercontent.com/102364003/168429871-6c861c7a-1dcb-4702-b3a9-d194c0c6b19a.png)
+
 ![17](https://user-images.githubusercontent.com/102364003/167476674-1f6929a1-ba31-4eaa-9ace-0e315955ab05.jpg)
 ![18](https://user-images.githubusercontent.com/102364003/167476686-ff12ec77-dd92-4506-af18-3d82c21dd8c5.jpg)
 

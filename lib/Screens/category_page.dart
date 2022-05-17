@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-
-
-
+import '../Models/category.dart';
 
 class Categoriespage extends StatefulWidget {
   const Categoriespage({Key? key}) : super(key: key);
@@ -13,7 +11,7 @@ class Categoriespage extends StatefulWidget {
 
 class _CategoriespageState extends State<Categoriespage> {
   TextEditingController CategoryNameController = TextEditingController();
-  var category;
+ late final List<Category> categories=[];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -33,6 +31,7 @@ class _CategoriespageState extends State<Categoriespage> {
             SizedBox(
               height: 20,
             ),
+
             RaisedButton(
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(Radius.circular(10.0))),
@@ -55,8 +54,12 @@ class _CategoriespageState extends State<Categoriespage> {
                           ),
                           Container(
                             child: ElevatedButton(
-                                onPressed:() {},
-                              child: const Text('Oluştur'),) ,
+                                onPressed:() {
+
+
+                                },
+                              child: const Text('Oluştur'),
+                            ) ,
 
                           ),
 

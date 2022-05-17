@@ -22,3 +22,11 @@ class User {
 
   String fullName() => "$name $surname";
 }
+
+class UserRepository{
+  final List<User>  users= [
+    User("caner", "kale", "a@gmail.com", "kalecaner", "12345", "derince"),
+    User("yorum", "kale", "y@gmail.com", "yck", "1234", "derince"),
+
+      ];
+}

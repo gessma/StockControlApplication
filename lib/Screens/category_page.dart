@@ -1,19 +1,33 @@
 import 'package:flutter/material.dart';
-
 import '../Models/category.dart';
+import '../Models/user.dart';
 
 class Categoriespage extends StatefulWidget {
-  const Categoriespage({Key? key}) : super(key: key);
+final  User user;
+  const Categoriespage( this.user, {Key? key}) : super(key: key);
+
 
   @override
   State<Categoriespage> createState() => _CategoriespageState();
+
+
+
 }
 
 class _CategoriespageState extends State<Categoriespage> {
   TextEditingController CategoryNameController = TextEditingController();
- late final List<Category> categories=[];
+  CategoryRepository categoryRepository=CategoryRepository();
+  int count=0;
+
+
+
+
+
   @override
   Widget build(BuildContext context) {
+print("Kategori sayfası");
+
+
     return Scaffold(
       appBar: AppBar(
         title: Text(
@@ -27,6 +41,40 @@ class _CategoriespageState extends State<Categoriespage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+                Column(
+                  children: [
+                    const Text("Hoş geldin Kalbin kadar temiz bir sayfa görüyorsan hemen bir kategori oluştur"),
+                  ],
+                ),
+
+
+            Expanded(child: ListView.separated(itemBuilder: (context,index) {
+              String categoryname="Henüz kategori oluşturulmamış";
+
+              if (categoryRepository.GetCategorybyUser(widget.user)!=null) {
+                categoryname=categoryRepository.GetCategorybyUser(widget.user)[index].categoryname;
+                count=categoryRepository.GetCategorybyUser(widget.user).length;
+                print("$categoryname");
+
+                return  ElevatedButton(onPressed: () {}, child: Text("$categoryname"));
+              }
+              else
+                {
+                  return  Text("$categoryname");
+                }
+
+
+            }, separatorBuilder: (context,index)=>Divider(), itemCount: count)
+
+
+
+
+            ),
+
+
+
+    //
+    // ),
 
             SizedBox(
               height: 20,
@@ -56,7 +104,6 @@ class _CategoriespageState extends State<Categoriespage> {
                             child: ElevatedButton(
                                 onPressed:() {
 
-
                                 },
                               child: const Text('Oluştur'),
                             ) ,
@@ -85,3 +132,25 @@ class _CategoriespageState extends State<Categoriespage> {
     );
   }
 }
+
+// class ButtonList extends StatelessWidget {
+//   const ButtonList({
+//     Key? key,
+//     required this.categoryRepository,
+//     required this.widget,
+//
+//   }) : super(key: key);
+//
+//   final CategoryRepository categoryRepository;
+//   final Categoriespage widget;
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     return ListView.builder(itemCount:categoryRepository.GetCategorybyUser(widget.user).length,
+//         itemBuilder: (context,index)
+//       {
+//         String categoryname=categoryRepository.GetCategorybyUser(widget.user)[index].categoryname;
+//         return  ElevatedButton(onPressed: () {}, child: Text("$categoryname"));
+//       });
+//   }
+// }

@@ -163,7 +163,7 @@ bool rememberme=false;
                       for (var user in userRepository.users) {
                         if(nameController.text==user.userName && passwordController.text==user.password)
                           {
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Categoriespage()));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Categoriespage(user)));
                             print("Giriş yapıldı.");
                           }
                       }

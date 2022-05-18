@@ -3,7 +3,7 @@ import '../Models/category.dart';
 import '../Models/user.dart';
 
 class Categoriespage extends StatefulWidget {
-final  User user;
+  final  User user;
   const Categoriespage( this.user, {Key? key}) : super(key: key);
 
 
@@ -17,7 +17,7 @@ final  User user;
 class _CategoriespageState extends State<Categoriespage> {
   TextEditingController CategoryNameController = TextEditingController();
   CategoryRepository categoryRepository=CategoryRepository();
-  int count=0;
+
 
 
 
@@ -25,7 +25,7 @@ class _CategoriespageState extends State<Categoriespage> {
 
   @override
   Widget build(BuildContext context) {
-print("Kategori sayfası");
+    print("Kategori sayfası");
 
 
     return Scaffold(
@@ -40,41 +40,7 @@ print("Kategori sayfası");
         alignment: Alignment.center,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-                Column(
-                  children: [
-                    const Text("Hoş geldin Kalbin kadar temiz bir sayfa görüyorsan hemen bir kategori oluştur"),
-                  ],
-                ),
-
-
-            Expanded(child: ListView.separated(itemBuilder: (context,index) {
-              String categoryname="Henüz kategori oluşturulmamış";
-
-              if (categoryRepository.GetCategorybyUser(widget.user)!=null) {
-                categoryname=categoryRepository.GetCategorybyUser(widget.user)[index].categoryname;
-                count=categoryRepository.GetCategorybyUser(widget.user).length;
-                print("$categoryname");
-
-                return  ElevatedButton(onPressed: () {}, child: Text("$categoryname"));
-              }
-              else
-                {
-                  return  Text("$categoryname");
-                }
-
-
-            }, separatorBuilder: (context,index)=>Divider(), itemCount: count)
-
-
-
-
-            ),
-
-
-
-    //
-    // ),
+          children: [ButtonList(categoryRepository: categoryRepository, widget: widget),
 
             SizedBox(
               height: 20,
@@ -102,9 +68,9 @@ print("Kategori sayfası");
                           ),
                           Container(
                             child: ElevatedButton(
-                                onPressed:() {
+                              onPressed:() {
 
-                                },
+                              },
                               child: const Text('Oluştur'),
                             ) ,
 
@@ -133,24 +99,34 @@ print("Kategori sayfası");
   }
 }
 
-// class ButtonList extends StatelessWidget {
-//   const ButtonList({
-//     Key? key,
-//     required this.categoryRepository,
-//     required this.widget,
-//
-//   }) : super(key: key);
-//
-//   final CategoryRepository categoryRepository;
-//   final Categoriespage widget;
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return ListView.builder(itemCount:categoryRepository.GetCategorybyUser(widget.user).length,
-//         itemBuilder: (context,index)
-//       {
-//         String categoryname=categoryRepository.GetCategorybyUser(widget.user)[index].categoryname;
-//         return  ElevatedButton(onPressed: () {}, child: Text("$categoryname"));
-//       });
-//   }
-// }
+class ButtonList extends StatelessWidget {
+  const ButtonList({
+    Key? key,
+    required this.categoryRepository,
+    required this.widget,
+
+  }) : super(key: key);
+
+  final CategoryRepository categoryRepository;
+  final Categoriespage widget;
+
+  @override
+  Widget build(BuildContext context) {
+     String categoryname="Henüz kategori oluşturulmamış";
+     List<Category> categories = categoryRepository.GetCategorybyUser(widget.user);
+
+
+
+              return Expanded(child: categories.isEmpty ? Center(child: Text(categoryname)):
+              ListView.separated(itemBuilder: (context, index)
+              {
+                categoryname=categories[index].categoryname;
+
+                return ElevatedButton(
+                    onPressed: () {}, child: Text("$categoryname"));
+
+              },
+
+                  separatorBuilder: (context, index) => Divider(), itemCount: categories.length));
+  }
+}

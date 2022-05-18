@@ -17,7 +17,7 @@ class Categoriespage extends StatefulWidget {
 class _CategoriespageState extends State<Categoriespage> {
   TextEditingController CategoryNameController = TextEditingController();
   CategoryRepository categoryRepository=CategoryRepository();
-
+  final GlobalKey<FormState> _formkey= GlobalKey();
 
 
 
@@ -53,36 +53,52 @@ class _CategoriespageState extends State<Categoriespage> {
                 showModalBottomSheet(
                     context: context,
                     builder: (context) {
-                      return Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          Container(
-                            padding: const EdgeInsets.fromLTRB(10, 5, 10, 0),
-                            child: TextField(
-                              controller: CategoryNameController,
-                              decoration: const InputDecoration(
-                                border: OutlineInputBorder(),
-                                labelText: 'Kategori Adı',
+                      return Form(
+                        key:_formkey,
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Container(
+                              padding: const EdgeInsets.fromLTRB(10, 5, 10, 0),
+                              child: TextFormField(
+                                controller: CategoryNameController,
+                                decoration: const InputDecoration(
+                                  border: OutlineInputBorder(),
+                                  labelText: 'Kategori Adı',
+                                ),
+                                validator: (value){
+                                  for (var category in categoryRepository.categories) {
+                                    if(value==category.categoryname)
+                                    {
+                                      return "Malesef bu  kategori oluşturulmuş.";
+                                    }
+
+                                  }
+                                },
                               ),
                             ),
-                          ),
-                          Container(
-                            child: ElevatedButton(
-                              onPressed:() {
-                                setState(()
-                                    {
-                                      categoryRepository.categories.add(Category(CategoryNameController.text, widget.user));
-                                      Navigator.of(context).pop();
-                                    });
+                            Container(
+                              child: ElevatedButton(
+                                onPressed:() {
+                                  setState(()
+                                      {
+                                        if(_formkey.currentState!.validate())
+                                          {
+                                            categoryRepository.categories.add(Category(CategoryNameController.text, widget.user));
+                                            Navigator.of(context).pop();
+                                          }
 
-                              },
-                              child: const Text('Oluştur'),
-                            ) ,
+                                      });
 
-                          ),
+                                },
+                                child: const Text('Oluştur'),
+                              ) ,
+
+                            ),
 
 
-                        ],
+                          ],
+                        ),
                       );
                     });
               },
@@ -128,7 +144,9 @@ class ButtonList extends StatelessWidget {
                 categoryname=categories[index].categoryname;
 
                 return ElevatedButton(
-                    onPressed: () {}, child: Text("$categoryname"));
+                    onPressed: () {
+
+                    }, child: Text("$categoryname"));
 
               },
 

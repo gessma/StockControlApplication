@@ -69,6 +69,11 @@ class _CategoriespageState extends State<Categoriespage> {
                           Container(
                             child: ElevatedButton(
                               onPressed:() {
+                                setState(()
+                                    {
+                                      categoryRepository.categories.add(Category(CategoryNameController.text, widget.user));
+                                      Navigator.of(context).pop();
+                                    });
 
                               },
                               child: const Text('Oluştur'),

@@ -102,7 +102,8 @@ Veri tabanı Firebase ile yapmaya karar verildi, bilgi ve zaman kısıtlarından
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Listesi, Yapılacaklar, Yapılıyor, Tamamlandı ve  Aktarılacaklar kısımlarını içermektedir.
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
-- 
+- [dailyscrum2.docx](https://github.com/kalecaner/StockControlApplication/files/8750222/dailyscrum2.docx)
+
 
 
 

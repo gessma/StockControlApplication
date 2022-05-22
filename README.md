@@ -37,8 +37,8 @@ Uygulamamız ile insanların satın aldığı ürünlerin, yiyeceklerin son kull
 
 ## Product Backlog URL
 
-[Trello Backlog Board](https://trello.com/b/qfyil4Ei/sprint-1)
-
+[Trello Backlog Board Sprint 1](https://trello.com/b/qfyil4Ei/sprint-1)
+[Trello Backlog Board Sprint 2](https://trello.com/b/9Mudu29z/sprint-2)
 
 ---
 

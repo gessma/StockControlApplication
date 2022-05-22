@@ -14,7 +14,7 @@ yüzdokuz
 
 ## Ürün İsmi
 
-Kivida/StoQR
+Kivida
 
 ## Ürün Açıklaması
 
@@ -92,13 +92,14 @@ Veri tabanı Firebase ile yapmaya karar verildi, bilgi ve zaman kısıtlarından
 
 - **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 95 Puan
+- **Sprint içinde tamamlanması tahmin edilen puan**: 164 puan.
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 95 ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 2. sprintte tamamlamayı planladığımız puan 125.
+İlk sprintten kalan 39 puanlık iş yükü ise bu sprinte dahil edilerek 2. sprintin toplam puanı 164'e çıkarıldı.
 
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 
-Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Listesi, Yapılacaklar, Yapılıyor, Dizayn, Test, Tamamlandı kısımlarını içermektedir.
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Listesi, Yapılacaklar, Yapılıyor, Tamamlandı ve  Aktarılacaklar kısımlarını içermektedir.
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
 - 
@@ -106,6 +107,10 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Lis
 
 
 - **Sprint board update**: Sprint board screenshotları: 
+![21sprint](https://user-images.githubusercontent.com/102364003/169712540-5678a0e8-57d0-4a57-b4bb-b787e0282715.png)
+![22sprint](https://user-images.githubusercontent.com/102364003/169712543-4775d01c-d53a-4372-a10b-05314658a6e5.png)
+![23sprint](https://user-images.githubusercontent.com/102364003/169712548-693b6d19-faad-4dd8-9b5d-aeccd45775cb.png)
+![24sprint](https://user-images.githubusercontent.com/102364003/169712553-ba52f770-7565-4ae7-832e-51092eee3f6c.png)
 
 
 - **Ürün Durumu**: 
@@ -114,16 +119,20 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Lis
 
 
 - **Sprint Review**: 
- Sprint Review katılımcıları: Esma Baydar, Ömer Kıraç, Caner Kale, Seda Nur Kılıç, Rana Nur Köz
+ Sprint Review katılımcıları: Esma Baydar, Ömer Kıraç, Caner Kale, Seda Nur Kılıç
 
-Veri tabanı Firebase ile yapmaya karar verildi, bilgi ve zaman kısıtlarından dolayı ikinci sprinte taşınması uygun görüldü. İlk sprintte planlama, araştırma gibi aşamalar zaman aldığı için eksik kalan kısımların ikinci sprintte yapılmasına  karar verildi. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmedi. Ekstra koyulması gereken özellikler belirlendi. 
+Veritabanı oluşturma ve veritabanına kayıt ekleme işlemleri tahmin ettiğimizden daha fazla zaman aldı. Bu sebeple bu sprintte tamamlanması öngörülen bazı görevlerin  3. sprinte akktarılmasına karar verildi. Ürünün tamamlanan kısımlarıyla ilgili bir problem görülmedi. Üründe kesin olarak bulunması beklenen özellikler belirlendi ve diğer özelliklerin ekstra zaman kalırsa eklenmesine karar verildi. 
 
 - **Sprint Retrospective:**
 
+  - Eksik konularda takım arkadaşlarımızdan yardım almak süreci hızlandırdı, buna devam edilmeli
   - Developerların geri bildirimine göre story point düzenlenmeli
-  - Daily Scrum'ın yapılma zamanıyla alakalı değişikliğe gidilmeli
-  - Daha efektif bir Daily Scrum için kullanılan uygulamada değişikliğe gidilmeli
   - Kod yazma bölümlerine daha fazla zaman ayrılmalı
+  - İşlem, tamamlandı bölümüne alınmadan mümkün olduğunca test edilmeli
+  - Zaman kısıtı sebebiyle görevler önem sırasına göre önceliklendirilmeli ve tamamlanmalı
+  - Daily Scrum'da o gün bir şey yapılmamış bile olsa ekip bilgilendirilmeli
+  
+  
   
 -**Diğer Notlar**:
 - N/A

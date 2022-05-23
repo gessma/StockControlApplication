@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ne_nerede/Screens/mainpage.dart';
 import '../Models/category.dart';
 import '../Models/user.dart';
 
@@ -145,6 +146,7 @@ class ButtonList extends StatelessWidget {
 
                 return ElevatedButton(
                     onPressed: () {
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>mainpage(categoryname)));
 
                     }, child: Text("$categoryname"));
 

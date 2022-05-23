@@ -1,6 +1,7 @@
 
 
 
+import 'package:flutter/foundation.dart';
 import 'package:ne_nerede/Models/user.dart';
 
 class Category{
@@ -40,6 +41,24 @@ class CategoryRepository{
 
     return categoriesbyUser;
   }
+Category? GetCategorybyCategoryName(String Categoryname)
+{  Category? category;
+    if(categories.isNotEmpty)
+      {
+        for( var item in categories)
+        {
+          if(item.categoryname==Categoryname)
+          {
+           category=item;
+          }
+          else{
+            category=null;
+          }
+        }
 
+      }
+    return category;
+}
 
 }
+

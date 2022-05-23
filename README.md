@@ -117,7 +117,12 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Lis
 - **Ürün Durumu**: 
 - Ekran görüntüleri:
 
+![u1](https://user-images.githubusercontent.com/102364003/169803383-189d22a7-1cb7-44ef-858b-6868f4b0ce7a.jpg)
+![u2](https://user-images.githubusercontent.com/102364003/169803392-111ec239-55b9-48ce-9612-1c36ace9eb73.jpg)
+![u3](https://user-images.githubusercontent.com/102364003/169803405-457ec81a-b8c7-4bd3-812f-ae725f0777c2.jpg)
+![u4](https://user-images.githubusercontent.com/102364003/169803417-ad632ab5-8712-4dad-93e9-377a2dbf63ea.jpg)
 
+![u5](https://user-images.githubusercontent.com/102364003/169803422-5c6a7344-909f-4075-bcd7-e88b0b5c18be.jpg)
 
 - **Sprint Review**: 
  Sprint Review katılımcıları: Esma Baydar, Ömer Kıraç, Caner Kale, Seda Nur Kılıç

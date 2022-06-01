@@ -226,19 +226,26 @@ class _AddItemPageState extends State<AddItemPage> {
                       child: ElevatedButton(
                         child: const Text('Kaydet'),
                         onPressed: () {
-                          if(formkey.currentState!.validate())
-                            {
-
-                              item Item=item(itemnameController.text, widget.category, LastDate, FirstDate, double.parse(amountController.text) ,unit , brandController.text, subCategoryController.text, typeController.text);
+                          setState(() {
+                            if (formkey.currentState!.validate()) {
+                              item Item = item(
+                                  itemnameController.text,
+                                  widget.category,
+                                  LastDate,
+                                  FirstDate,
+                                  double.parse(amountController.text),
+                                  unit,
+                                  brandController.text,
+                                  subCategoryController.text,
+                                  typeController.text);
                               _itemRepository.AddItem(Item);
-                              print("kaydedildi.");
+
                               Navigator.of(context).pop(Item);
-
+                              print(Item.itemname);
                             }
-
-
-
-                        },
+                          }
+                          );
+                        }
                       ),
                     ),
 

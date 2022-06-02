@@ -2,6 +2,7 @@
 
 
 import 'package:flutter/foundation.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ne_nerede/Models/user.dart';
 
 class Category{
@@ -17,7 +18,7 @@ class Category{
 
 }
 
-class CategoryRepository{
+class CategoryRepository {
   List<Category>  categories= [
     Category("Buzdolabı", User("caner", "kale", "a@gmail.com", "kalecaner", "12345", "derince")),
     Category("Kiler", User("caner", "kale", "a@gmail.com", "kalecaner", "12345", "derince"))
@@ -25,6 +26,7 @@ class CategoryRepository{
 
 
   ];
+
 
   List<Category> GetCategorybyUser(User user) {
     List<Category> categoriesbyUser=[];

@@ -6,6 +6,7 @@ import 'package:ne_nerede/Models/item.dart';
 
 
 
+
 class AddItemPage extends StatefulWidget {
   final Category? category;
   const AddItemPage( this.category, {Key? key}) : super(key: key);
@@ -230,7 +231,7 @@ class _AddItemPageState extends State<AddItemPage> {
                             if (formkey.currentState!.validate()) {
                               item Item = item(
                                   itemnameController.text,
-                                  widget.category,
+                                 widget.category,
                                   LastDate,
                                   FirstDate,
                                   double.parse(amountController.text),

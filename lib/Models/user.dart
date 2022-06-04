@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-class User {
+
+class Person {
   String name;
 
   String surname;
@@ -14,7 +14,7 @@ class User {
 
   String adress;
 
-  User(this.name, this.surname, this.email, this.userName, this.password,
+  Person(this.name, this.surname, this.email, this.userName, this.password,
       this.adress);
 
 
@@ -27,9 +27,9 @@ class User {
 }
 
 class UserRepository extends ChangeNotifier{
-  final List<User>  users= [
-    User("caner", "kale", "a@gmail.com", "kalecaner", "12345", "derince"),
-    User("yorum", "kale", "y@gmail.com", "yck", "1234", "derince"),
+  final List<Person>  users= [
+    Person("caner", "kale", "a@gmail.com", "kalecaner", "12345", "derince"),
+    Person("yorum", "kale", "y@gmail.com", "yck", "1234", "derince"),
 
       ];
 

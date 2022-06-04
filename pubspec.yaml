@@ -43,6 +43,7 @@ dependencies:
   intl: ^0.17.0
   flutter_riverpod: ^2.0.0-dev.9
   firebase_core: ^1.17.1
+  firebase_auth: ^3.3.19
 
 dev_dependencies:
   flutter_test:

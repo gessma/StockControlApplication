@@ -199,7 +199,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                     onPressed: () {
                       if(formkey.currentState!.validate())
                         {
-                          User new_user = User(
+                          Person new_user = Person(
                               nameController.text, surnameController.text,
                               mailController.text, usernameController.text,
                               passwordController.text, AdressController.text);

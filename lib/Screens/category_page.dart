@@ -4,7 +4,7 @@ import '../Models/category.dart';
 import '../Models/user.dart';
 
 class Categoriespage extends StatefulWidget {
-  final  User user;
+  final  Person user;
   const Categoriespage( this.user, {Key? key}) : super(key: key);
 
 

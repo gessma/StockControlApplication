@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
@@ -60,7 +61,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   UserRepository userRepository=UserRepository();
   final GlobalKey<FormState> _formkey= GlobalKey();
   bool rememberme=false;
-  late User user;
+  late Person user;
 
   @override
   Widget build(BuildContext context) {
@@ -237,7 +238,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
     );
   }
 
-  void GotoCategoryPage(BuildContext context, User user) {
+  void GotoCategoryPage(BuildContext context, Person user) {
     Navigator.push(context, MaterialPageRoute(builder: (context)=>Categoriespage(user)));
     print("Giriş yapıldı.");
   }
@@ -269,7 +270,7 @@ class _SplashScreenState extends State<SplashScreen> {
     await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,
     );
-
+    await FirebaseAuth.instance.useAuthEmulator('localhost', 9099);
     print(" firebase init oldu");
      Navigator.push(context, MaterialPageRoute(builder: (context)=>const MyStatefulWidget()));
   }

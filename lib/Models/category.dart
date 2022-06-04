@@ -7,7 +7,7 @@ import 'package:ne_nerede/Models/user.dart';
 
 class Category{
   String categoryname;
-  User user;
+  Person user;
 
   Category(this.categoryname, this.user);
 
@@ -20,15 +20,15 @@ class Category{
 
 class CategoryRepository {
   List<Category>  categories= [
-    Category("Buzdolabı", User("caner", "kale", "a@gmail.com", "kalecaner", "12345", "derince")),
-    Category("Kiler", User("caner", "kale", "a@gmail.com", "kalecaner", "12345", "derince"))
+    Category("Buzdolabı", Person("caner", "kale", "a@gmail.com", "kalecaner", "12345", "derince")),
+    Category("Kiler", Person("caner", "kale", "a@gmail.com", "kalecaner", "12345", "derince"))
 
 
 
   ];
 
 
-  List<Category> GetCategorybyUser(User user) {
+  List<Category> GetCategorybyUser(Person user) {
     List<Category> categoriesbyUser=[];
 
     for( var item in categories)

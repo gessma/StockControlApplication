@@ -205,6 +205,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                               passwordController.text, AdressController.text);
                                userRepository.users.add(new_user);
                           formkey.currentState!.save();
+                          userRepository.addUserFirebase(new_user);
                         print(new_user);
                         Navigator.of(context).pop(new_user);
 

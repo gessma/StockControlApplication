@@ -2,11 +2,12 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
-import 'package:google_sign_in/google_sign_in.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:ne_nerede/Screens/resgiterpage.dart';
 import 'Models/user.dart';
 import 'Screens/category_page.dart';
 import 'firebase_options.dart';
+
 
 
 
@@ -66,6 +67,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
 
   @override
   Widget build(BuildContext context) {
+
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: const Text('Ne&Nerede')),
@@ -167,7 +169,10 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                       padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
                       child: ElevatedButton(
                         child: const Text('Giriş Yap'),
-                        onPressed: () {
+                        onPressed: () async {
+                         await userRepository.GetUserFirebase();
+
+                          print(userRepository.users.toString());
                           if(_formkey.currentState!.validate())
                             for (var user in userRepository.users) {
                               if(nameController.text==user.userName && passwordController.text==user.password)

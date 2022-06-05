@@ -183,8 +183,8 @@ class _AddItemPageState extends State<AddItemPage> {
                         onPressed: () {
                           DatePicker.showDatePicker(context,
                               showTitleActions: true,
-                              minTime: DateTime(2018, 3, 5),
-                              maxTime: DateTime(2019, 6, 7), onChanged: (date) {
+                              minTime: DateTime(2021, 3, 5),
+                              maxTime: DateTime(2200, 6, 7), onChanged: (date) {
                                 FirstDate=date;
                                 print('change $date');
                               }, onConfirm: (date) {
@@ -206,8 +206,8 @@ class _AddItemPageState extends State<AddItemPage> {
 
                           DatePicker.showDatePicker(context,
                               showTitleActions: true,
-                              minTime: DateTime(2018, 3, 5),
-                              maxTime: DateTime(2019, 6, 7),
+                              minTime: DateTime(2021, 3, 5),
+                              maxTime: DateTime(2200, 6, 7),
                               onChanged: (date) {
                                  LastDate=date;
                                 print('change $date');

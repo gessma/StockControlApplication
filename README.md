@@ -149,6 +149,16 @@ Veritabanı oluşturma ve veritabanına kayıt ekleme işlemleri tahmin ettiğim
 ---
 
 # Sprint 3
+Sprint Notları: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
 
+Sprint içinde tamamlanması tahmin edilen puan: 173 puan.
+
+Puan tamamlama mantığı: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3. sprintte tamamlamayı planladığımız puan 120. 2.sprintten kalan 53 puanlık iş yükü ise bu sprinte dahil edilerek 3. sprintin toplam puanı 173'e çıkarıldı.
+
+Backlog düzeni ve Story seçimleri: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur.
+
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Listesi, Yapılacaklar, Yapılıyor, Tamamlandı ve Aktarılacaklar kısımlarını içermektedir.
+
+Daily Scrum: Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
 
 ---

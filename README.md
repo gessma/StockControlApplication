@@ -160,5 +160,13 @@ Backlog düzeni ve Story seçimleri: Backlog'umuz ilk yapılacak story'lere gör
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Listesi, Yapılacaklar, Yapılıyor, Tamamlandı ve Aktarılacaklar kısımlarını içermektedir.
 
 Daily Scrum: Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
+- **
+Sprint board update: Sprint board screenshotları:
+![3_1](https://user-images.githubusercontent.com/102364003/172192819-5186201c-697d-466a-9c70-bab7e6afd8b2.png)
+![3_2](https://user-images.githubusercontent.com/102364003/172192842-2f9b9193-859e-4eb6-9973-d08c138590c6.png)
+![scrum3](https://user-images.githubusercontent.com/102364003/172192855-910b9702-844d-490b-aa36-d2ceb47ccdb7.png)
+![scrum4](https://user-images.githubusercontent.com/102364003/172192863-242f6e8c-07c1-4b46-a25b-ddf65047a61d.png)
+![scrum5](https://user-images.githubusercontent.com/102364003/172192872-31f06c77-632b-4582-82e9-95ff1a3e2301.png)
+
 
 ---

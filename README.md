@@ -39,7 +39,7 @@ Uygulamamız ile insanların satın aldığı ürünlerin, yiyeceklerin son kull
 
 [Trello Backlog Board Sprint 1](https://trello.com/b/qfyil4Ei/sprint-1)
 [Trello Backlog Board Sprint 2](https://trello.com/b/9Mudu29z/sprint-2)
-[Trello Backlog Board Sprint 2](https://trello.com/b/1WV6ak7k/3-sprint)
+[Trello Backlog Board Sprint 3](https://trello.com/b/1WV6ak7k/3-sprint)
 
 ---
 

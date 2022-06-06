@@ -172,8 +172,9 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Lis
 ![scrum4](https://user-images.githubusercontent.com/102364003/172192863-242f6e8c-07c1-4b46-a25b-ddf65047a61d.png)
 ![scrum5](https://user-images.githubusercontent.com/102364003/172192872-31f06c77-632b-4582-82e9-95ff1a3e2301.png)
 
-- **Ürün Durumu**: 
-- Ekran görüntüleri:
+- **Ürün Durumu**: - Ekran görüntüleri:
+
+
 ![WhatsApp Image 2022-06-05 at 21 32 24](https://user-images.githubusercontent.com/102364003/172194009-ef498874-6a20-4c30-a316-243ca69e7fd6.jpeg)
 ![WhatsApp Image 2022-06-05 at 21 32 38](https://user-images.githubusercontent.com/102364003/172194027-6d0e0594-b581-4516-a704-6aa783989ccf.jpeg)
 ![WhatsApp Image 2022-06-05 at 21 33 54](https://user-images.githubusercontent.com/102364003/172194071-a0ecc467-1116-46fd-a68c-d244ae05be9b.jpeg)

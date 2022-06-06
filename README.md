@@ -39,6 +39,7 @@ Uygulamamız ile insanların satın aldığı ürünlerin, yiyeceklerin son kull
 
 [Trello Backlog Board Sprint 1](https://trello.com/b/qfyil4Ei/sprint-1)
 [Trello Backlog Board Sprint 2](https://trello.com/b/9Mudu29z/sprint-2)
+[Trello Backlog Board Sprint 2](https://trello.com/b/1WV6ak7k/3-sprint)
 
 ---
 
@@ -149,24 +150,48 @@ Veritabanı oluşturma ve veritabanına kayıt ekleme işlemleri tahmin ettiğim
 ---
 
 # Sprint 3
-Sprint Notları: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
+- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
 
-Sprint içinde tamamlanması tahmin edilen puan: 173 puan.
+- **Sprint içinde tamamlanması tahmin edilen puan**: 173 puan.
 
-Puan tamamlama mantığı: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3. sprintte tamamlamayı planladığımız puan 120. 2.sprintten kalan 53 puanlık iş yükü ise bu sprinte dahil edilerek 3. sprintin toplam puanı 173'e çıkarıldı.
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3. sprintte tamamlamayı planladığımız puan 120. 2.sprintten kalan 53 puanlık iş yükü ise bu sprinte dahil edilerek 3. sprintin toplam puanı 173'e çıkarıldı.
 
-Backlog düzeni ve Story seçimleri: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur.
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur.
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Listesi, Yapılacaklar, Yapılıyor, Tamamlandı ve Aktarılacaklar kısımlarını içermektedir.
 
-Daily Scrum: Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
-- **
-Sprint board update: Sprint board screenshotları:
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
+
+- **Sprint board update**: Sprint board screenshotları: 
 ![3_1](https://user-images.githubusercontent.com/102364003/172192819-5186201c-697d-466a-9c70-bab7e6afd8b2.png)
 ![3_2](https://user-images.githubusercontent.com/102364003/172192842-2f9b9193-859e-4eb6-9973-d08c138590c6.png)
 ![scrum3](https://user-images.githubusercontent.com/102364003/172192855-910b9702-844d-490b-aa36-d2ceb47ccdb7.png)
 ![scrum4](https://user-images.githubusercontent.com/102364003/172192863-242f6e8c-07c1-4b46-a25b-ddf65047a61d.png)
 ![scrum5](https://user-images.githubusercontent.com/102364003/172192872-31f06c77-632b-4582-82e9-95ff1a3e2301.png)
 
+- **Ürün Durumu**: 
+- Ekran görüntüleri:
+![WhatsApp Image 2022-06-05 at 21 32 24](https://user-images.githubusercontent.com/102364003/172194009-ef498874-6a20-4c30-a316-243ca69e7fd6.jpeg)
+![WhatsApp Image 2022-06-05 at 21 32 38](https://user-images.githubusercontent.com/102364003/172194027-6d0e0594-b581-4516-a704-6aa783989ccf.jpeg)
+![WhatsApp Image 2022-06-05 at 21 33 54](https://user-images.githubusercontent.com/102364003/172194071-a0ecc467-1116-46fd-a68c-d244ae05be9b.jpeg)
+![WhatsApp Image 2022-06-05 at 21 34 14](https://user-images.githubusercontent.com/102364003/172194091-aec97029-39d1-48c0-a526-cc4252d74e1f.jpeg)
+
+- **Sprint Review**: 
+ Sprint Review katılımcıları: Esma Baydar, Caner Kale,Rana Nur Köz, Seda Nur Kılıç
+
+Ürünümüz çok fazla özellik barındırdığı ve çok kapsamlı olduğu için öngördüğümüz zamanda tüm özellikleri ürüne dahil edemedik. Kullanıcı kayıt etme, ürün ekleme, kategori oluşturma, kategori ve ürünleri listeleme gibi temel özelliklerimiz çalışır durumda. Tamamladığımız bu bölümlerle ilgili bir problem görülmedi. Üründe kesin olarak bulunması beklenen özellikler tamamlandı ve proje süresi bittikten sonra ek özelliklerin de eklenip ürünün tamamlanmasına karar verildi. 
+
+- **Sprint Retrospective:**
+
+ 
+  - Kısıtlı zamanda eklenmesi gereken özelliklerin öncelik sırası doğru belirlendi
+  - Ekip içinde bir arkadaşımızın eksiğini diğeri kapatmaya çalıştı
+  - Birlikte çalışma motivasyonumuzu korumak için herkes birbirine karşı anlayışlı davrandı
+  - İşlevleri test etmek kullanımda alınacak hatayı en aza indirdiği için yapılması faydalı oldu
+  - Kod yazma bölümlerine daha fazla zaman ayrılabilirdi
+  - Takım çalışmamızın başarısında etkili iletişim kurmanın büyük rolü olduğu fark edildi
+  
+-**Diğer Notlar**:
+- N/A
 
 ---

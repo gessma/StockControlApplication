@@ -162,6 +162,9 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board İş Lis
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
 
+[dailyscrum3.docx](https://github.com/kalecaner/StockControlApplication/files/8845864/dailyscrum3.docx)
+
+
 - **Sprint board update**: Sprint board screenshotları: 
 ![3_1](https://user-images.githubusercontent.com/102364003/172192819-5186201c-697d-466a-9c70-bab7e6afd8b2.png)
 ![3_2](https://user-images.githubusercontent.com/102364003/172192842-2f9b9193-859e-4eb6-9973-d08c138590c6.png)

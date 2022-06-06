@@ -86,6 +86,8 @@ class _CategoriespageState extends State<Categoriespage> {
                                         if(_formkey.currentState!.validate())
                                           {
                                             categoryRepository.categories.add(Category(CategoryNameController.text, widget.user));
+                                            // categoryRepository.addCategoryFirebase(Category(CategoryNameController.text, widget.user));
+
                                             Navigator.of(context).pop();
                                           }
 

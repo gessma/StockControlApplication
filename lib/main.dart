@@ -171,7 +171,6 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                         child: const Text('Giriş Yap'),
                         onPressed: () async {
                          await userRepository.GetUserFirebase();
-
                           print(userRepository.users.toString());
                           if(_formkey.currentState!.validate())
                             for (var user in userRepository.users) {
@@ -208,6 +207,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                         text: "Sign up with Google",
                         onPressed: () {
                           print("tıkladı");
+
                                                   },
                       )
 

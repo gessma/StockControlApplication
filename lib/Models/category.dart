@@ -1,8 +1,9 @@
 
 
 
+
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ne_nerede/Models/user.dart';
 
 class Category{
@@ -10,6 +11,15 @@ class Category{
   Person user;
 
   Category(this.categoryname, this.user);
+  Category.fromMap(Map<String,dynamic>m ):this(m["categoryname"],m["user"]);
+  Map<String,dynamic> toMap() {
+    return {
+      "categoryname": categoryname,
+      "user": user,
+
+    };
+  }
+
 
   @override
   String toString() {
@@ -26,7 +36,21 @@ class CategoryRepository {
 
 
   ];
+  Future<void> addCategoryFirebase(Category category)
+  async {
+    await FirebaseFirestore.instance.collection("person").add(category.toMap());
+  }
+  Future<void> GetcategoryFirebase()
+  async {
 
+    final query=await FirebaseFirestore.instance.collection("category").get();
+    List<Category> list= query.docs.map((e)=>Category.fromMap(e.data())).toList();
+    for(var item in list)
+    {
+      categories.add(item);
+    }
+
+  }
 
   List<Category> GetCategorybyUser(Person user) {
     List<Category> categoriesbyUser=[];

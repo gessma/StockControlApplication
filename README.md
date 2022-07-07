@@ -1,16 +1,7 @@
-# **Takım İsmi**
 
-yüzdokuz
 
 # Ürün İle İlgili Bilgiler
 
-## Takım Elemanları
-
-- Esma  BAYDAR: Scrum Master
-- Caner KALE  : Team Member/Developer
-- Ömer KIRAÇ  : Team Member/Product Owner
-- Rana Nur KÖZ: Team Member/Designer
-- Seda KILIÇ  : Team Member/Developer
 
 ## Ürün İsmi
 
